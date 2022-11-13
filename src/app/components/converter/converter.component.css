@@ -1,0 +1,39 @@
+.converter {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.converter__image {
+  width: 40px;
+  height: 40px;
+  margin: 0 15px;
+  align-self: center;
+}
+
+.converter__container {
+  display: flex;
+  cursor: pointer;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 5px;
+}
+
+.converter__container:last-child {
+  margin-right: 0;
+}
+
+.converter__input {
+  outline: none;
+  border: 1px solid transparent;
+  box-shadow: 0px 1px 3px 0px rgb(0 0 0 / 35%);
+  transition: all 0.3s;
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 5px;
+  width: 65px;
+}
+
+.converter__input:hover {
+  box-shadow: 0px 3px 7px 0px rgb(0 0 0 / 35%);
+}
