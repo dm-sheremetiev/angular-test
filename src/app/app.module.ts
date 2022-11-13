@@ -5,7 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CurrencyHeaderComponent } from './components/currency-header/currency-header.component';
 import { HttpClientModule } from '@angular/common/http';
-import { ConverterComponent } from './converter/converter.component';
+import { ConverterComponent } from './components/converter/converter.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
